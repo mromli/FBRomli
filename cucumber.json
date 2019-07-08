@@ -1,0 +1,235 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Register Facebook",
+        "description": "",
+        "id": "as-a-user--i-want-to-register-facebook-using-automation;register-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4709290656,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open \"https://www.facebook.com/\" in browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 7
+                }
+              ],
+              "location": "RegisterStep.i_open_in_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298611127,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I input \"Mohamad\" in Nama depan text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mohamad\"",
+                  "offset": 8
+                }
+              ],
+              "location": "RegisterStep.i_input_in_as_Nama_depan_text_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133934135,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I input \"Romli\" in Nama belakang text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Romli\"",
+                  "offset": 8
+                }
+              ],
+              "location": "RegisterStep.i_input_in_as_Nama_belakang_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243170269,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"MohamadRomli@gmail.com\" in Email text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MohamadRomli@gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "RegisterStep.i_input_in_as_Email_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 351087769,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input \"MohamadRomli@gmail.com\" in re-Enter Email text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MohamadRomli@gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "RegisterStep.i_input_in_as_re_Enter_Email_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190136580,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I input \"IniP@ssw0rd\" in password text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IniP@ssw0rd\"",
+                  "offset": 8
+                }
+              ],
+              "location": "RegisterStep.i_input_in_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137143873,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select \"13\" in day dropdown list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"13\"",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterStep.i_select_in_day_dropdown_list(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123839938,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select \"Okt\" in month dropdown list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Okt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterStep.i_select_in_month_dropdown_list(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108304046,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select \"1988\" in year dropdown list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1988\"",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterStep.i_select_in_year_dropdown_list(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97507509,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click \"Khusus\" as Laki-laki radio button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Khusus\"",
+                  "offset": 8
+                }
+              ],
+              "location": "RegisterStep.i_click_as_Laki_laki_radio_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120037254,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click \"Daftar\" as Daftar button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Daftar\"",
+                  "offset": 8
+                }
+              ],
+              "location": "RegisterStep.i_click_as_Daftar_button(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Registration"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to register Facebook using Automation",
+    "description": "",
+    "id": "as-a-user--i-want-to-register-facebook-using-automation",
+    "keyword": "Feature",
+    "uri": "Include/features/Register/Register.feature",
+    "tags": [
+      {
+        "name": "@Registration",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
